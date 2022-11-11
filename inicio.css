@@ -1,0 +1,19 @@
+body{
+    width: 96%;
+    font-family:Verdana,Arial, serif;
+    margin: 0 auto;
+ }
+
+ #main-content {
+    display: flex;
+ 
+ }
+
+ #left-content {
+    background-color: #576c7a;
+ }
+
+ img.grande{
+    width: 200px;
+    height: 200px;
+  }
