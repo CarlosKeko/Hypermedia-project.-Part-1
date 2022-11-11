@@ -6,14 +6,45 @@ body{
 
  #main-content {
     display: flex;
- 
+    flex-direction: row;
  }
 
  #left-content {
     background-color: #576c7a;
+
+
+ }
+
+ #right-content {
+    width: 250%;
  }
 
  img.grande{
     width: 200px;
     height: 200px;
+  }
+
+  #pBlanco{
+    color: white;
+  }
+
+  #listablanca{
+    color: white;
+  }
+
+  #h3Blanco{
+    color: white;
+  }
+
+  #content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10%;
+    margin-top: 5%;
+
+  }
+
+  img {
+    margin-left: 10%;
   }
